@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="mywebpage_files/pagestyle.css">
+
+</head>
+<body>
+    <header>
+        
+       <div id="navbar">
+        <a href="http://127.0.0.1:5500/1">  Home</a>
+        <a href="http://127.0.0.1:5500/2">  Word Of The Day </a>
+        
+        <a href="http://127.0.0.1:5500/4"> Synonyms</a>
+        <a href="http://127.0.0.1:5500/5"> Antonyms</a>
+        <a href="http://127.0.0.1:5500/6"> Idioms/Phrases</a>
+        <a href="http://127.0.0.1:5500/7"> Contact Us</a>
+        <button>click here to sign up</button>
+        
+       
+       </div>
+       <div id="box1">
+        <div id="box2">
+        <h1>English Made Easy</h1>
+        <br><br>
+        <h2>Speak Better .Write Smarter. Learn Daily</h2> 
+        <h3></h3>Level Up Your English With Experts  
+        </div>
+    </div>
+       
+    </header>
+    <br><br>
+    <div id="content">
+        <br><br>
+        <h1 id="heading0">What We Offer</h1>
+        <br><br>
+        <div id="box3">Quiz</div>
+        <div id="box4">Tips</div>
+       <div id="box5">Notes</div>
+        <div id="box6">Talk Of The Day</div>
+        <br><br><br>
+        <!-- <div id="box7"></div> -->
+        <h1 id="heading1">Achievements</h1>
+        <br>
+        <p1>
+       More than 1000 students of ours have won excellent
+        Prizes in various national and
+       international essays competetion and olympiads. 
+       More than 500 students have been selected in UPSC examinations.
+       More than 200  students have become the public speakers
+      </p1>
+        <br><br>
+        <h1 id="heading2">Special Rewards For You</h1>
+        <br>
+        <p2>Top 100 rankers in  daily quiz will receive smart watches 
+and certificates.  Top 200 rankers in  daily quiz will receive 
+certificates, top practice books and novels.
+        Daily top 50 winners of Talk Of The Day will receive Smart 
+speakers like Alexa and Google's Assisstant.
+         </p2>
+       </div>
+       <footer>
+         <br>
+        <p>Copyright 2025 Your English App | All Rights Reserved</p>
+        <br>
+        <div>
+         <a href="http://127.0.0.1:5500/8">Email:learn@gmail.com</a>
+         <a href="http://127.0.0.1:5500/9"> Follow Us On linkedin</a>
+         <a href="http://127.0.0.1:5500/%6010">About</a>
+         <a href="http://127.0.0.1:5500/11">Terms and Conditions</a>
+         <a href="http://127.0.0.1:5500/12"> Feedback</a>
+         </div>
+         </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
